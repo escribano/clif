@@ -3,7 +3,7 @@ package clif
 import (
 	"bytes"
 	"fmt"
-	"github.com/gosuri/uilive"
+	"github.com/escribano/uilive"
 	"sync"
 	"time"
 )
