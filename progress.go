@@ -148,7 +148,7 @@ func (this *progressBarPool) Start() {
 				select {
 
 				// finished
-				case <- this.finishc:
+				case <-this.finishc:
 					this.render()
 					<-time.After(time.Millisecond * 5) // to assure rendering is written fully..
 					this.writer.Stop()

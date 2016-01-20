@@ -3,7 +3,7 @@
 package clif
 
 import (
-	"github.com/olekukonko/ts"
+	"github.com/escribano/ts"
 )
 
 func init() {

@@ -3,7 +3,7 @@ package clif
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ukautz/reflekt"
+	"github.com/escribano/reflekt"
 	"regexp"
 	//	"strings"
 	"time"
